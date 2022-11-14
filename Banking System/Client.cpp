@@ -6,7 +6,7 @@ Client::Client(const std::string &name, const std::string &address, const std::s
     this->address = address;
     this->phoneNumber = phoneNumber;
 
-    this->pBankName = new BankAccount();
+    this->pBankAccount = new BankAccount();
 }
 
 const std::string &Client::getName() const {
@@ -34,15 +34,15 @@ void Client::setPhoneNumber(const std::string &phoneNumber) {
 }
 
 BankAccount *Client::getBankAccount() const {
-    return pBankName;
+    return pBankAccount;
 }
 
 void Client::setBankAccount(BankAccount *bankAccount) {
-    delete Client::pBankName;
-    Client::pBankName = bankAccount;
+    delete Client::pBankAccount;
+    Client::pBankAccount = bankAccount;
 }
 
-/*
+
 Client::~Client() {
-    std::cout << "Deconstructed Client with name: " << name << std::endl;
-}*/
+    delete pBankAccount;
+}

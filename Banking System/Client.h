@@ -7,11 +7,11 @@
 class Client{
 private:
     std::string name, address, phoneNumber;
-    BankAccount *pBankName;
+    BankAccount *pBankAccount;
 public:
     Client() = default;
     Client(const std::string &name,const std::string &address,const std::string &phoneNumber);
-    // ~Client();
+     ~Client();
 
     const std::string &getName() const;
     void setName(const std::string &name);

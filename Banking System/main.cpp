@@ -7,6 +7,3 @@ int main() {
     app.bankSystem();
     return 0;
 }
-
-
-
