@@ -1,3 +1,0 @@
-C:/University/OOP/Assignments/Assignment 2/Individual/XO/cmake-build-debug/CMakeFiles/XO.dir
-C:/University/OOP/Assignments/Assignment 2/Individual/XO/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/University/OOP/Assignments/Assignment 2/Individual/XO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

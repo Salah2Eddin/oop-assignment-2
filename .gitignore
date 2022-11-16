@@ -3,3 +3,6 @@ clion/
 *.zip
 cmake-build-debug/
 .idea/
+*/.idea/
+*/cmake-build-debug/
+~$213-2022-1st-S19-S20-20210187-20210346-20210223-A2.docx
